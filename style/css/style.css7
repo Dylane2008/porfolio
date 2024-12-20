@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.ligne {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sectionContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionContact h1 {
+  font-size: 200%;
+}
+
+.firstConteinerSectionContact {
+  display: flex;
+}
+
+.leftHandSubContainerSectionContact {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  background-image: url(../img/mainStyloContact.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.leftHandSubContainerSectionContactContent {
+  padding: 20%;
+  background-color: rgba(0, 0, 107, 0.534);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftHandSubContainerSectionContactContent ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leftHandSubContainerSectionContactContent ul li {
+  display: flex;
+  align-items: center;
+}
+
+.leftHandSubContainerSectionContactContent ul li div {
+  padding-right: 10px;
+}
+
+.rightHandSubContainerSectionContact {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+
+.rightHandSubContainerSectionContact form {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 10%; */
+}
+
+.rightHandSubContainerSectionContact form label, .rightHandSubContainerSectionContact form input {
+  margin: 0.5%;
+}
+
+.rightHandSubContainerSectionContact form input {
+  height: 25px;
+  padding: 1%;
+}
+
+.rightHandSubContainerSectionContact form textarea {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.rightHandSubContainerSectionContact input[type=submit] {
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+}
+
+label span {
+  color: red;
+}
+
+.sectionMap {
+  width: 95%;
+  height: 70vh;
+  margin: 2% auto;
+}
+
+.sectionMap iframe {
+  width: 95%;
+  height: 400px;
+  margin: 2% 2%;
+}
+
+@media (max-width: 900px) {
+  .firstConteinerSectionContact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.paragraphe {
+  line-height: 1.5;
+}
+
+body {
+  background-color: aqua;
+}
+body .droite {
+  background-color: orange;
+}
+
+.boutton {
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 2%;
+  margin: 1%;
+  color: black;
+  border-radius: 20px;
+}
+.boutton:hover {
+  transform: scale(1.2);
+  background-color: rgba(0, 0, 0, 0.815);
+  box-shadow: 0px 0px 10px blue;
+  text-shadow: 0 0 5px blue;
+  color: white;
+}
+.boutton a {
+  font-size: 150%;
+  color: yellow;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+.main .gauche {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+
+.droite {
+  width: 80%;
+  height: 100%;
+}
+
+.service {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: fit-content;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+
+.pdp {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 150px;
+}
+.pdp img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+.image img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css7.map */

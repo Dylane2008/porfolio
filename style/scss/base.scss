@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.ligne{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+body{
+    background-color: aqua;
+    .droite{
+        background-color: orange;
+    }
+}
+
